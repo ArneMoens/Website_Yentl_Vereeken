@@ -10,14 +10,14 @@ import { ContactForm } from "@/components/contact-form"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-    title: "Schrijnwerkerij Janssens | Maatwerk Schrijnwerk in Vlaams-Brabant",
+    title: "Schrijnwerkerij Janssens | Maatwerk Schrijnwerk in Oost-Vlaanderen",
     description:
-        "Op zoek naar een ervaren schrijnwerker in Vlaams-Brabant? Schrijnwerkerij Janssens is gespecialiseerd in maatwerk: keukens, kasten, trappen en interieur.",
+        "Op zoek naar een ervaren schrijnwerker in Oost-Vlaanderen? Schrijnwerkerij Janssens is gespecialiseerd in maatwerk: keukens, kasten, trappen en interieur.",
     keywords: [
         "schrijnwerker",
         "schrijnwerkerij",
         "maatwerk",
-        "Vlaams-Brabant",
+        "Oost-Vlaanderen",
         "keukens op maat",
         "kasten",
         "trappen",
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
         locale: "nl_BE",
         url: "https://www.schrijnwerkerij-janssens.be",
         siteName: "Schrijnwerkerij Janssens",
-        title: "Schrijnwerkerij Janssens | Maatwerk Schrijnwerk in Vlaams-Brabant",
+        title: "Schrijnwerkerij Janssens | Maatwerk Schrijnwerk in Oost-Vlaanderen",
         description:
-            "Op zoek naar een ervaren schrijnwerker in Vlaams-Brabant? Schrijnwerkerij Janssens is gespecialiseerd in maatwerk: keukens, kasten, trappen en interieur.",
+            "Op zoek naar een ervaren schrijnwerker in Oost-Vlaanderen? Schrijnwerkerij Janssens is gespecialiseerd in maatwerk: keukens, kasten, trappen en interieur.",
         images: [
             {
                 url: "/og-image.jpg",
@@ -48,9 +48,9 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Schrijnwerkerij Janssens | Maatwerk Schrijnwerk in Vlaams-Brabant",
+        title: "Schrijnwerkerij Janssens | Maatwerk Schrijnwerk in Oost-Vlaanderen",
         description:
-            "Op zoek naar een ervaren schrijnwerker in Vlaams-Brabant? Schrijnwerkerij Janssens is gespecialiseerd in maatwerk: keukens, kasten, trappen en interieur.",
+            "Op zoek naar een ervaren schrijnwerker in Oost-Vlaanderen? Schrijnwerkerij Janssens is gespecialiseerd in maatwerk: keukens, kasten, trappen en interieur.",
         images: ["/images/og-image.jpg"],
     },
     robots: {
@@ -77,9 +77,9 @@ export default function Page() {
         email: "info@schrijnwerkerij-janssens.be",
         address: {
             "@type": "PostalAddress",
-            addressLocality: "Vlaams-Brabant",
+            addressLocality: "Oost-Vlaanderen",
             addressCountry: "BE",
-            addressRegion: "Vlaams-Brabant",
+            addressRegion: "Oost-Vlaanderen",
         },
         areaServed: {
             "@type": "GeoCircle",

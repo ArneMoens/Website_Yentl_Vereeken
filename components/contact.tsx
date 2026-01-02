@@ -6,7 +6,7 @@ export function Contact() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Contacteer jouw schrijnwerker in Vlaams-Brabant
+            Contacteer jouw schrijnwerker in Oost-Vlaanderen
           </h2>
           <p className="text-xl text-cream/80 leading-relaxed">
             Heeft u vragen of wilt u een vrijblijvende offerte? Neem gerust contact met ons op.
@@ -42,7 +42,7 @@ export function Contact() {
               <MapPin size={28} className="text-cream" />
             </div>
             <h3 className="font-serif text-xl font-bold mb-2">Locatie</h3>
-            <p className="text-cream/80 text-lg">Vlaams-Brabant, België</p>
+            <p className="text-cream/80 text-lg">Oost-Vlaanderen, België</p>
           </div>
         </div>
       </div>

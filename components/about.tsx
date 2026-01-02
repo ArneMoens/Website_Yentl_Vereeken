@@ -1,7 +1,7 @@
 import { Check } from "lucide-react"
 
 export function About() {
-  const features = ["Meer dan 20 jaar ervaring", "Actief in Vlaams-Brabant", "Duurzame materialen"]
+  const features = ["Meer dan 20 jaar ervaring", "Actief in Oost-Vlaanderen", "Duurzame materialen"]
 
   return (
     <section id="over-ons" className="py-24 bg-cream">
@@ -13,7 +13,7 @@ export function About() {
           <div className="prose prose-lg max-w-none text-wood-dark/80 leading-relaxed">
             <p className="text-xl mb-6">
               Schrijnwerkerij Janssens is een Belgische schrijnwerkerij gespecialiseerd in maatwerk in hout. Wij
-              realiseren keukens, kasten, trappen en volledige interieurs op maat voor klanten in Vlaams-Brabant en
+              realiseren keukens, kasten, trappen en volledige interieurs op maat voor klanten in Oost-Vlaanderen en
               omstreken.
             </p>
             <p className="text-lg mb-8">

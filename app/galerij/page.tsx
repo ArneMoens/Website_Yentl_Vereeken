@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/card"
 export const metadata: Metadata = {
     title: "Galerij - Onze Realisaties | Schrijnwerkerij Janssens",
     description:
-        "Bekijk onze uitgebreide galerij met realisaties: keukens, kasten, trappen, deuren en ramen, en interieur schrijnwerk in Vlaams-Brabant.",
+        "Bekijk onze uitgebreide galerij met realisaties: keukens, kasten, trappen, deuren en ramen, en interieur schrijnwerk in Oost-Vlaanderen.",
     openGraph: {
         title: "Galerij - Onze Realisaties | Schrijnwerkerij Janssens",
         description: "Ontdek onze vakmanschap in hout: keukens, kasten, trappen en meer",

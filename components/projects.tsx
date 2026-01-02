@@ -53,7 +53,7 @@ export function Projects() {
             Realisaties van schrijnwerk op maat
           </h2>
           <p className="text-xl text-wood-dark/70 leading-relaxed">
-            Ontdek enkele van onze recente projecten in Vlaams-Brabant. Elk project is uniek en volledig afgestemd op de
+            Ontdek enkele van onze recente projecten in Oost-Vlaanderen. Elk project is uniek en volledig afgestemd op de
             wensen van onze klanten.
           </p>
         </div>

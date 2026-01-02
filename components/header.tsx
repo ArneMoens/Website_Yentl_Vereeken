@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -29,28 +28,38 @@ export function Header() {
     ]
 
     const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-        if (!href.startsWith("#")) return
-        e.preventDefault()
-        const element = document.querySelector(href)
-        if (element) {
-            element.scrollIntoView({ behavior: "smooth" })
+        if (href.startsWith("#")) {
+            e.preventDefault()
+            if (href === "#home") {
+                window.scrollTo({ top: 0, behavior: "smooth" })
+            } else {
+                const element = document.querySelector(href)
+                if (element) element.scrollIntoView({ behavior: "smooth" })
+            }
             setIsMobileMenuOpen(false)
         }
+        // Otherwise, allow Next.js Link to navigate normally
     }
 
     return (
         <header
-            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-                isScrolled ? "bg-background/95 backdrop-blur-sm shadow-sm" : "bg-wood-dark/40 backdrop-blur-md"
+            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-wood-dark/40 backdrop-blur-md ${
+                isScrolled ? "shadow-lg" : ""
             }`}
         >
             <div className="container mx-auto px-4">
                 <div className="flex items-center justify-between h-20">
-                    <Link href="#home" className="flex items-center gap-2" onClick={(e) => scrollToSection(e, "#home")}>
+                    <Link
+                        href="#home"
+                        className="flex items-center gap-2"
+                        onClick={(e) => scrollToSection(e, "#home")}
+                    >
                         <div className="w-10 h-10 bg-wood-medium rounded flex items-center justify-center">
                             <span className="text-cream font-bold text-xl">SJ</span>
                         </div>
-                        <span className="font-serif text-xl font-bold text-cream">Schrijnwerkerij Janssens</span>
+                        <span className="font-serif text-xl font-bold text-cream">
+                            Schrijnwerkerij Janssens
+                        </span>
                     </Link>
 
                     <nav className="hidden md:flex items-center gap-8">
@@ -68,7 +77,10 @@ export function Header() {
 
                     <div className="hidden md:block">
                         <Button asChild size="lg" className="font-medium">
-                            <Link href="#contact" onClick={(e) => scrollToSection(e, "#contact")}>
+                            <Link
+                                href="#contact"
+                                onClick={(e) => scrollToSection(e, "#contact")}
+                            >
                                 Offerte aanvragen
                             </Link>
                         </Button>
@@ -98,7 +110,10 @@ export function Header() {
                             </Link>
                         ))}
                         <Button asChild size="lg" className="w-full font-medium mt-2">
-                            <Link href="#contact" onClick={(e) => scrollToSection(e, "#contact")}>
+                            <Link
+                                href="#contact"
+                                onClick={(e) => scrollToSection(e, "#contact")}
+                            >
                                 Offerte aanvragen
                             </Link>
                         </Button>

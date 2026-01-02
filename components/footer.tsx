@@ -35,7 +35,7 @@ export function Footer() {
                             <span className="font-serif text-xl font-bold">Schrijnwerkerij Janssens</span>
                         </div>
                         <p className="text-cream/70 leading-relaxed">
-                            Schrijnwerk op maat in Vlaams-Brabant. Ambachtelijke kwaliteit sinds 2004.
+                            Schrijnwerk op maat in Oost-Vlaanderen. Ambachtelijke kwaliteit sinds 2004.
                         </p>
                     </div>
 
@@ -67,7 +67,7 @@ export function Footer() {
                             >
                                 info@schrijnwerkerij-janssens.be
                             </a>
-                            <p>Vlaams-Brabant, België</p>
+                            <p>Oost-Vlaanderen, België</p>
                         </div>
                     </div>
                 </div>
